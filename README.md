@@ -41,7 +41,12 @@ It is an interesting strategy that even if keywords in a clinical narrative are 
 &nbsp;
 
 ### **Source**
+* * *
 
 &nbsp;
 
 ### **References**
+* * *
+
+When using our text representation approach for your application, please cite the following paper:
+1. Chen, M. C., Huang, T. Y., Chen, T. Y., Panchanit Boonyarat & Chang, Y. C. (Year). Clinical Narrative-aware Deep Neural Network for Emergency Department Critical Outcome Prediction. Journal.
