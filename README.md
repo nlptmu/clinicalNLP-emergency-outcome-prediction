@@ -22,6 +22,8 @@ Since the performance of text classification benefits from efficient text repres
 $$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│¬HR))^n)}{p(w)^(k+l) (1-p(w))^(m+n)}\right]![image](https://user-images.githubusercontent.com/74447637/193268962-f8e22837-5429-40a6-81ce-50ce6cdf4517.png) &emsp; (1)$$
 
   
+  
+  
 &nbsp;
 &nbsp;
 &emsp; Next, we employed Gensim  to train word embeddings for text representation. The clinical narratives are jointly represented by the keyword embeddings. More specifically, the clinical narrative text Tk is represented as a weighted average of the keyword vectors, and the weight λi for a keyword Ki is determined by its LLR value. In the case of a clinical narrative without any keyword, we calculated the mean of all word vectors in this clinical narrative and computed cosine similarity over all the keyword vectors to find the closest k to represent this clinical narrative.
@@ -36,3 +38,10 @@ It is an interesting strategy that even if keywords in a clinical narrative are 
 &nbsp;
 &emsp; The aim of our method is to support the ED physicians to allow faster identification of high-risk cases, so that they can attend to them promptly. Our proposed method can generate keywords according to the clinical text, so that the model can list the reason or characteristics behind why the patient is predicted to be a high-risk patient, therefore providing interpretability to the physnce of the model.
 
+&nbsp;
+
+### **Source**
+
+&nbsp;
+
+### **References**
