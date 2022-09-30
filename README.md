@@ -23,7 +23,7 @@ Since the performance of text classification benefits from efficient text repres
 
 &nbsp;
 
-![image](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/eed25ba2f5e9f14c0dde81d604a52041b3fbba86/source/Fig1_KNN.pdf)
+![image](https://user-images.githubusercontent.com/74447637/193370371-04886816-2c05-485b-9580-98488af50876.png)
 
 Fig. 1. CNTR calculates the weighted average of nearest keyword vectors when a clinical narrative contains no keywords.
 
