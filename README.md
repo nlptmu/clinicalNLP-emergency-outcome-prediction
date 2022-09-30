@@ -49,6 +49,7 @@ It is an interesting strategy that even if keywords in a clinical narrative are 
 
 ### **Source**
 * * *
+[here](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/9aa6efd244ba963110791388616f0fab57899507/source/Dictionary.xlsx)
 
 &nbsp;
 
