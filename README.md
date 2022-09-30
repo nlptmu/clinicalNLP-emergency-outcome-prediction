@@ -30,7 +30,7 @@ $$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│�
 
 &nbsp;
 
-![image](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/42197743dd7dff55663c9f11f1d6e5e3a0628388/source/KNN.pdf)
+![image](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/5a6b1d79f3757ece14c305e62c6b295fe888cb12/source/KNN.pdf)
 
 Fig. 1. CNTR calculates the weighted average of nearest keyword vectors when a clinical narrative contains no keywords.
 
