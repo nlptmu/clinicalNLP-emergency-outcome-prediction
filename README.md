@@ -1,6 +1,5 @@
 # clinicalNLP-emergency-outcome-prediction
 ### Clinical Narratives Text Representation (CNTR)
-
 &nbsp;
 > The introduction of CNTR
 
