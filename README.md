@@ -30,6 +30,9 @@ $$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│�
 
 <img width="430" alt="image" src="https://user-images.githubusercontent.com/74447637/193299118-37478f8f-2e24-46a3-86e2-3c1d60d8a4a2.png">
 
+Fig. 1. CNTR calculates the weighted average of nearest keyword vectors when a clinical narrative contains no keywords.
+
+
 &nbsp;
 
 ### **The contribution and insight of CNTR**
