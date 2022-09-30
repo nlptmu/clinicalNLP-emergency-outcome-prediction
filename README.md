@@ -28,7 +28,7 @@ $$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│�
 &nbsp;
 &emsp; Next, we employed [Gensim](https://radimrehurek.com/gensim/models/word2vec.html) to train word embeddings for text representation. The clinical narratives are jointly represented by the keyword embeddings. More specifically, the clinical narrative text Tk is represented as a weighted average of the keyword vectors, and the weight λi for a keyword Ki is determined by its LLR value. In the case of a clinical narrative without any keyword, we calculated the mean of all word vectors in this clinical narrative and computed cosine similarity over all the keyword vectors to find the closest k to represent this clinical narrative.
 
-![source/KNN.pdf]
+![image](https://user-images.githubusercontent.com/74447637/193302629-dda311f5-c5e3-439f-8b27-50b018248cb4.png)
 
 Fig. 1. CNTR calculates the weighted average of nearest keyword vectors when a clinical narrative contains no keywords.
 
