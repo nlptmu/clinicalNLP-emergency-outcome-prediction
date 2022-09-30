@@ -20,13 +20,13 @@ Since the performance of text classification benefits from efficient text repres
 
 &nbsp;
 
-$$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│¬HR))^n)}{p(w)^(k+l^) (1-p(w))^(m+n^)}\right]![image](https://user-images.githubusercontent.com/74447637/193268962-f8e22837-5429-40a6-81ce-50ce6cdf4517.png) &emsp; (1)$$  
+$$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│¬HR))^n)}{p(w)^(^k+l) (1-p(w))^(^m+n)}\right]![image](https://user-images.githubusercontent.com/74447637/193268962-f8e22837-5429-40a6-81ce-50ce6cdf4517.png) &emsp; (1)$$  
   
   
 &nbsp;  
 
 &nbsp;
-&emsp; Next, we employed [Gensim](https://radimrehurek.com/gensim/models/word2vec.html) to train word embeddings for text representation. The clinical narratives are jointly represented by the keyword embeddings. More specifically, the clinical narrative text *T<sub>k</sub>* is represented as a weighted average of the keyword vectors, and the weight *λ<sub>i</sub>* for a keyword *K<sub>i</sub>* is determined by its LLR value. In the case of a clinical narrative without any keyword, we calculated the mean of all word vectors in this clinical narrative and computed cosine similarity over all the keyword vectors to find the closest k to represent this clinical narrative.  
+&emsp; Next, we employed [Gensim](https://radimrehurek.com/gensim/models/word2vec.html) to train word embeddings for text representation. The clinical narratives are jointly represented by the keyword embeddings. More specifically, the clinical narrative text *T<sub>k</sub>* is represented as a weighted average of the keyword vectors, and the weight *λ<sub>i</sub>* for a keyword *K<sub>i</sub>* is determined by its LLR value. In the case of a clinical narrative without any keyword, we calculated the mean of all word vectors in this clinical narrative and computed cosine similarity over all the keyword vectors to find the closest *k* to represent this clinical narrative.  
 
 &nbsp;
 
