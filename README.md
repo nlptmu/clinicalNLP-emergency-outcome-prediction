@@ -2,7 +2,6 @@
 ### Clinical Narratives Text Representation (CNTR)
 
 &nbsp;
-
 > The introduction of CNTR
 
 
