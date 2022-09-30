@@ -6,7 +6,7 @@ Since the performance of text classification benefits from efficient text repres
 
 
 $$LLR(w,HR)=2log⁡\left[\frac{p(w|HR)^k (1-p(w│HR))^m p(w|¬ HR)^l (1-p(w│¬HR))^n)}{p(w)^(k+l) (1-p(w))^(m+n)}\right]![image](https://user-images.githubusercontent.com/74447637/193268962-f8e22837-5429-40a6-81ce-50ce6cdf4517.png) &emsp; (1)$$
-
+<br>
   
 
 &nbsp;
