@@ -5,6 +5,7 @@
 - The introduction of CNTR
 - The contribution and insight of CNTR
 - Source
+- Other
 - References
 
 
@@ -39,7 +40,7 @@ Fig. 1. Overview of the proposed clinical narrative-aware deep neural network. A
 It is an interesting strategy that even if keywords in a clinical narrative are unseen, we can locate the nearest *__k__* words through k-NN and utilize their word embeddings to construct CNTR. In essence, each clinical narrative is projected onto a point in the latent feature space as a distributed representation which can then be evaluated using any classifier. This distributed model of clinical narratives can incorporate a broader amount of context information that covers the entire narrative in the representation. Furthermore, the semantic relations of various surface words can also be captured from the vector space projection of these distributed representations. Such characteristics cannot be easily accomplished in a traditional bag-of-word-based approach, which consumes a significant amount of storage for a sizable n-gram dictionary.
 
 &nbsp;
-&emsp; Furthermore, our proposed model can reach SOTA, and outperform machine learning and deep learning models (i.e., Naïve Bayes Classifier，Logistic Regression Classifier，Random Forest Classifier，XGBoost Classifier，multilayer perceptron，TextCNN，BiLSTM，Bio_ClinicalBERT[1]).
+&emsp; Furthermore, our proposed model can reach SOTA, and outperform machine learning and deep learning models (i.e., Naïve Bayes Classifier，Logistic Regression Classifier，Random Forest Classifier，XGBoost Classifier，multilayer perceptron，TextCNN，BiLSTM，Bio_ClinicalBERT [1]).
 
 &nbsp;
 &emsp; The aim of our method is to support the ED physicians to allow faster identification of high-risk cases, so that they can attend to them promptly. Our proposed method can generate keywords according to the clinical text, so that the model can list the reason or characteristics behind why the patient is predicted to be a high-risk patient, therefore providing interpretability to the physnce of the model.
@@ -62,13 +63,10 @@ This method is inspired by our paper Clinical Narrative-aware Deep Neural Networ
 
 Since early identification of potential critical patients in the Emergency Department (ED) can lower mortality and morbidity, this study seeks to develop a machine learning model capable of predicting possible critical outcomes based on the history and vital signs routinely collected at triage. We compare emergency physicians and the predictive performance of the machine learning model. Predictors including patients’ chief complaints, present illness, past medical history, vital signs, and demographic data of adult patients (aged ≥ 18 years) visiting the ED at Shuang-Ho Hospital in New Taipei City, Taiwan, are extracted from the hospital’s electronic health records. Critical outcomes are defined as in-hospital cardiac arrest (IHCA) or intensive care unit (ICU) admission. A clinical narrative-aware deep neural network was developed to handle the text-intensive data and standardized numerical data, which is compared against other machine learning models. After this, emergency physicians were asked to predict possible clinical outcomes of thirty visits that were extracted randomly from our dataset, and their results were further compared to our machine learning model. A total of 4,308 (2.5%) out of the 171,275 adult visits to the ED included in this study resulted in critical outcomes. The area under the receiver operating characteristic curve (AUROC) of our proposed prediction model is 0.874, which not only outperforms the other machine learning models, but even has better sensitivity (0.95 vs. 0.41) and accuracy (0.90 vs. 0.67) as compared to the emergency physicians. This model is sensitive and accurate in predicting critical outcomes and highlights the potential to use predictive analytics to support post-triage decision-making.
 
-&nbsp;
-
 #### **Citation:**
 
 When using our text representation approach for your application, please cite the following paper:
 1. Chen, M. C., Huang, T. Y., Chen, T. Y., Panchanit Boonyarat & Chang, Y. C. (Year). Clinical Narrative-aware Deep Neural Network for Emergency Department Critical Outcome Prediction. Journal.
-
 
 &nbsp;
 
