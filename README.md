@@ -23,6 +23,10 @@ Since the performance of text classification benefits from efficient text repres
 
 &nbsp;
 
+&emsp; The proposed model, depicted in Figure 1, consists of five main components: preprocessing, linguistic feature extraction, bidirectional long-term short-term memory (BiLSTM), a multi-feature fusion mechanism, and primary outcome prediction.
+
+&nbsp;
+
 ![image](https://user-images.githubusercontent.com/74447637/193376224-f5555d82-c8c0-49e9-9f5b-d385a5d26760.png)
 
 Fig. 1. Overview of the proposed clinical narrative-aware deep neural network. Abbreviations: CNTR Clinical Narratives Text Representation, BiLSTM Bi-directional Long-term Short-Term Memory, kw keywords, dim dimension.
