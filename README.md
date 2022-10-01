@@ -23,7 +23,7 @@ Since the performance of text classification benefits from efficient text repres
 
 &nbsp;
 
-![image](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/450cb2875735ed95a8b9075455be1b2d8cdac1f7/figure/Framework.pdf)
+![image](https://user-images.githubusercontent.com/74447637/193376224-f5555d82-c8c0-49e9-9f5b-d385a5d26760.png)
 
 Fig. 1. Overview of the proposed clinical narrative-aware deep neural network. Abbreviations: CNTR Clinical Narratives Text Representation, BiLSTM Bi-directional Long-term Short-Term Memory, kw keywords, dim dimension.
 
