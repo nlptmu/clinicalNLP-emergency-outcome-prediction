@@ -23,9 +23,9 @@ Since the performance of text classification benefits from efficient text repres
 
 &nbsp;
 
-![image](https://user-images.githubusercontent.com/74447637/193370371-04886816-2c05-485b-9580-98488af50876.png)
+![image](https://github.com/nlptmu/clinicalNLP-emergency-outcome-prediction/blob/450cb2875735ed95a8b9075455be1b2d8cdac1f7/figure/Framework.pdf)
 
-Fig. 1. CNTR calculates the weighted average of nearest keyword vectors when a clinical narrative contains no keywords.
+Fig. 1. Overview of the proposed clinical narrative-aware deep neural network. Abbreviations: CNTR Clinical Narratives Text Representation, BiLSTM Bi-directional Long-term Short-Term Memory, kw keywords, dim dimension.
 
 
 &nbsp;
