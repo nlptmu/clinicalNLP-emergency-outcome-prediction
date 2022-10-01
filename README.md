@@ -22,7 +22,6 @@ Since the performance of text classification benefits from efficient text repres
 &emsp; Next, we employed [Gensim](https://radimrehurek.com/gensim/models/word2vec.html) to train word embeddings for text representation. The clinical narratives are jointly represented by the keyword embeddings. More specifically, the clinical narrative text *__T<sub>k</sub>__* is represented as a weighted average of the keyword vectors, and the weight *__λ<sub>i</sub>__* for a keyword *__K<sub>i</sub>__* is determined by its LLR value. In the case of a clinical narrative without any keyword, we calculated the mean of all word vectors in this clinical narrative and computed cosine similarity over all the keyword vectors to find the closest *__k__* to represent this clinical narrative. 
 
 &nbsp;
-
 &emsp; The proposed model, depicted in Figure 1, consists of five main components: preprocessing, linguistic feature extraction, bidirectional long-term short-term memory (BiLSTM), a multi-feature fusion mechanism, and primary outcome prediction.
 
 &nbsp;
